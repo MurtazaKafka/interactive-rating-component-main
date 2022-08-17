@@ -12,7 +12,7 @@ h1{
 
 .container{
     background-color: hsl(213, 19%, 18%);
-    max-width: 350px;
+    max-width: 95vw;
     width: 90vw;
     margin: 5em auto;
     min-height: 200px;
@@ -107,9 +107,8 @@ footer{
     color:hsla(25, 97%, 53%, 0.846);
 }
 
-@media (max-width: 250px) {
+@media (max-width: 450px) {
     body{
-        width: 95%;
         margin: 0;
     }
     .container{
