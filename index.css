@@ -1,0 +1,132 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    font-size: 0.95rem;
+    color: hsl(216, 12%, 54%);
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 350px;
+    width: 90vw;
+    margin: 5em auto;
+    min-height: 200px;
+    padding: 2rem;
+    border-radius: 1.7em;
+}
+
+footer{
+    padding: 1.5rem;
+    color: #707070;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-btn{
+    display: inline-block;
+    margin-bottom: .5em;
+    border: none;
+    padding: 1em 1.3em;
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.205);
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.num-btn:active,
+.num-btn:focus{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.num-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.star-btn{
+    border: none;
+    padding: .6em .8em;
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.205);
+}
+
+.submit-btn{
+    display: block;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    margin: 1em auto;
+    padding: .6em 7em;
+    width: 100%;
+    border-radius: 1em;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn:active{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+/******************
+**Thank-You-State**
+******************/
+
+.img-mobile{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.thank-you-state{
+    text-align: center;
+}
+
+.rate-decoration{
+    display: inline-block;
+    background-color: hsla(217, 12%, 63%, 0.205);
+    padding: .2em .8em;
+    border-radius: 50px;
+    color:hsla(25, 97%, 53%, 0.846);
+}
+
+@media (max-width: 250px) {
+    body{
+        width: 95%;
+        margin: 0;
+    }
+    .container{
+        width: 90%;
+        max-width: 90vw;
+        margin: 10em auto;
+        min-height: 200px;
+        padding: 2rem;
+        border-radius: 1.7em;
+    }
+
+    .container p{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .num-btn{
+        padding: .9em 1.2em;
+    }
+}
